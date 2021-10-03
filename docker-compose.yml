@@ -1,0 +1,8 @@
+version: '3.8'
+ 
+services:
+  opencv-docker:
+    build: ./ 
+    container_name: opencv-docker
+    image: grebtsew/python-opencv-docker:3.8-slim-buster
+  
